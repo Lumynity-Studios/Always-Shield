@@ -1,4 +1,4 @@
-package net.justmili.alwaysshield.mixin;
+package net.justmili.alwaysshield.core.mixin;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.jetbrains.annotations.Nullable;
 
 @Mixin(LivingEntity.class)
-public class NoShieldDelay {
+public class LivingEntityMixin {
     @Shadow @Nullable protected ItemStack useItem;
 
     @Inject(method = "getItemBlockingWith", at = @At("HEAD"), cancellable = true)

@@ -1,27 +1,27 @@
 [versions]
-minecraft = "26.2"
+minecraft = "26.3"
 
 # https://files.minecraftforge.net/net/minecraftforge/forge/
-forge = "65.0.0"
+forge = "66.0.3"
 # https://projects.neoforged.net/neoforged/neoforge
-neoforge = "26.2.0.0-beta"
+neoforge = "26.3.0.16-beta"
 
 # https://fabricmc.net/develop
 fabric_loader = "0.19.3"
-fabric_loom = "1.16-SNAPSHOT"
+fabric_loom = "1.17-SNAPSHOT"
 
 # https://projects.neoforged.net/neoforged/moddevgradle
-moddevgradle = "2.0.141"
+moddevgradle = "2.0.147"
 
 # https://files.minecraftforge.net/net/minecraftforge/forgegradle/index.html
-forge_gradle = "7.0.20"
+forge_gradle = "7.0.40"
 # https://files.minecraftforge.net/net/minecraftforge/jarjar-gradle/index.html
 forge_jarjar = "0.2.3"
 
 # https://github.com/GradleUp/shadow/releases
 shadow = "9.4.1"
 # https://modmuss50.github.io/mod-publish-plugin/
-mod_publish = "1.1.0"
+mod_publish = "2.2.0"
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }

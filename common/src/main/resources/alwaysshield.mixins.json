@@ -1,10 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.justmili.alwaysshield.mixin",
+  "package": "net.justmili.alwaysshield.core.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "NoShieldDelay"
+    "LivingEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
